@@ -49,9 +49,9 @@
 
 #define B1_Pin GPIO_PIN_13
 #define B1_GPIO_Port GPIOC
-#define Thumb_exti_Pin GPIO_PIN_0
-#define Thumb_exti_GPIO_Port GPIOA
-#define Thumb_exti_EXTI_IRQn EXTI0_1_IRQn
+#define exti0_receiver_Pin GPIO_PIN_0
+#define exti0_receiver_GPIO_Port GPIOA
+#define exti0_receiver_EXTI_IRQn EXTI0_1_IRQn
 #define USART_TX_Pin GPIO_PIN_2
 #define USART_TX_GPIO_Port GPIOA
 #define USART_RX_Pin GPIO_PIN_3
